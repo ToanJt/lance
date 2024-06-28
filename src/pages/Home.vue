@@ -114,27 +114,28 @@ const products = [
                 <h1 class="mb-8 ">Order</h1>
                 <div class=" h-full w-full">
                     <div class="border-2 rounded-lg h-2/5 overflow-y-scroll mb-4">
-                        <div class="py-6 hover:bg-graybg cursor-pointer" v-for="product in products" :key="product.id">
-                            <a href="">{{ product.name }}</a>
+                        <div class="py-6 hover:bg-graybg cursor-pointer" v-for="(product) in products"
+                            :key="product.id">
+                            <a class="" href="">{{ product.name }}</a>
                         </div>
                     </div>
                     <div class="text-left border-2 rounded-lg px-4">
                         <h3 class="text-xl pt-2">Hóa đơn</h3>
                         <ul class=" border-b-1 border-gray-200 py-2">
                             <li class="flex items-end gap-8 ">
-                                <p class="font-medium text-sm w-40">Nước ép cam</p>
+                                <p class="font-medium text-sm w-40">1. Nước ép cam</p>
                                 <p class=" w-40">45.000đ</p>
                                 <a
                                     class="font-medium cursor-pointer text-sm text-red-600 dark:text-red-500 hover:underline">Xóa</a>
                             </li>
                             <li class="flex items-end gap-8">
-                                <p class="font-medium text-sm w-40">Nước ép dứa</p>
+                                <p class="font-medium text-sm w-40">2. Nước ép dứa</p>
                                 <p class=" w-40">40.000đ</p>
                                 <a
                                     class="font-medium cursor-pointer text-sm text-red-600 dark:text-red-500 hover:underline">Xóa</a>
                             </li>
                             <li class="flex items-end gap-8">
-                                <p class="font-medium text-sm w-40">Trà sữa đào</p>
+                                <p class="font-medium text-sm w-40">3. Trà sữa đào</p>
                                 <p class=" w-40">40.000đ</p>
                                 <a
                                     class="font-medium cursor-pointer text-sm text-red-600 dark:text-red-500 hover:underline">Xóa</a>
@@ -143,6 +144,7 @@ const products = [
                         <div class="py-2">
                             <p>Tiền món: <span>125.000đ</span></p>
                             <p>Giảm giá: <span>0%</span></p>
+                            <p>Số món: <span>3</span></p>
                             <p>Tổng: <span>125.000đ</span></p>
                         </div>
                         <button class="cashBtn mb-4 bg-green-500 text-white">Thanh toán</button>

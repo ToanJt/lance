@@ -24,7 +24,7 @@ function logOut() {
 
                             <div class=" pl-6 py-4 flex cursor-pointer w-full items-center">
                                 <Icon icon="tabler:home-filled" width="2em" height="2em" style="color: black" />
-                                <p class="ml-2">Trang Chủ</p>
+                                <p class="ml-2">Đơn hàng</p>
                             </div>
 
                         </a>
