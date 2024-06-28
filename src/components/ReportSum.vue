@@ -12,7 +12,7 @@ onMounted(() => {
     <div class="p-8">
         <h1 class="my-8 text-left">Thống kê</h1>
         <div class="flex justify-between mb-8 w-full mx-auto">
-            <form class="">
+            <form class="flex gap-2">
                 <select id="countries"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                     <option selected>Chọn tháng</option>
@@ -29,6 +29,7 @@ onMounted(() => {
                     <option value="DE">11</option>
                     <option value="DE">12</option>
                 </select>
+                <button class="printBtn bg-primary text-white">In</button>
             </form>
 
             <div date-rangepicker="" id="dateRangePickerId" datepicker-orientation=" right bottom left"
@@ -332,3 +333,9 @@ onMounted(() => {
         </div>
     </div>
 </template>
+
+<style scoped>
+.printBtn {
+    color: white !important;
+}
+</style>

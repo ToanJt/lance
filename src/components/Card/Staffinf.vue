@@ -18,7 +18,7 @@ function stopPropa(e) {
     <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
             <div class="relative">
-                <img class="w-10 h-10 rounded-full" src="../../assets/images/user1.jpg" alt="">
+                <img class="w-10 h-10 rounded-full" src="https://i.ibb.co/0BpQTNK/user1.jpg" alt="">
                 <span
                     class="top-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
             </div>

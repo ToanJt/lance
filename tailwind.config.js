@@ -10,8 +10,8 @@ export default {
     extend: {
       colors: {
         flat: "#777777",
-        // primary: "rgb(245 94 219)",
-        primary: "rgb(94 177 245)",
+        primary: "#ff3471",
+        // primary: "rgb(94 177 245)",
         secondary: "rgb(219 234 254)",
         hovsec: "#187cd3",
         graybg: "rgb(249 250 251)",

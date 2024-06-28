@@ -16,56 +16,56 @@ const products = [
         name: "Trà sữa chanh leo",
         searchName: "tra sua chanh leo",
         price: "25.000",
-        src: "../../assets/images/menu/tra-sua-chanh-leo.jpg",
+        src: "https://i.ibb.co/LrnnMn7/tra-sua-chanh-leo.jpg",
     },
     {
         id: 2,
         name: "Trà sữa bạc hà",
         searchName: "tra sua bac ha",
         price: "25.000",
-        src: "../../assets/images/menu/tra-sua-bac-ha.jpg",
+        src: "https://i.ibb.co/0Bys3zc/tra-sua-bac-ha.jpg",
     },
     {
         id: 3,
         name: "Trà sữa đào",
         searchName: "tra sua dao",
         price: "35.000",
-        src: "../../assets/images/menu/tra-sua-dao.jpg",
+        src: "https://i.ibb.co/PczJ8HX/tra-sua-dao.jpg",
     },
     {
         id: 4,
         name: "Trà sữa hokkaido",
         searchName: "tra sua hokkaido",
         price: "40.000",
-        src: "../../assets/images/menu/tra-sua-hokkaido.jpg",
+        src: "https://i.ibb.co/GRh7LgR/tra-sua-hokkaido.jpg",
     },
     {
         id: 5,
         name: "Trà sữa mộc hương",
         searchName: "tra sua moc huong",
         price: "20.000",
-        src: "../../assets/images/menu/tra-sua-moc-huong.jpg",
+        src: "https://i.ibb.co/wC6Zb2n/tra-sua-moc-huong.jpg",
     },
     {
         id: 6,
         name: "Trà sữa olong",
         searchName: "tra sua olong",
         price: "25.000",
-        src: "../../assets/images/menu/tra-sua-olong.jpg",
+        src: "https://i.ibb.co/fF0YyY8/tra-sua-olong.jpg",
     },
     {
         id: 7,
         name: "Trà xanh kem sữa",
         searchName: "tra xanh kem sua",
         price: "25.000",
-        src: "../../assets/images/menu/tra-xanh--kem-sua.jpg",
+        src: "https://i.ibb.co/Yf0rp4J/tra-xanh-kem-sua.jpg",
     },
     {
         id: 8,
         name: "Trà sữa caramel",
         searchName: "tra sua caramel",
         price: "40.000",
-        src: "../../assets/images/menu/tra-sua-caramel.jpg"
+        src: "https://i.ibb.co/hXGHmzf/tra-sua-caramel.jpg"
     }
 ]
 

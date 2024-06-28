@@ -145,9 +145,16 @@ const products = [
                             <p>Giảm giá: <span>0%</span></p>
                             <p>Tổng: <span>125.000đ</span></p>
                         </div>
+                        <button class="cashBtn mb-4 bg-green-500 text-white">Thanh toán</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+.cashBtn {
+    color: white !important;
+}
+</style>

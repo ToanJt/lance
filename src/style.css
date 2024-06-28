@@ -22,7 +22,7 @@ h1 {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ff649f;
   text-decoration: inherit;
 }
 a:hover {
@@ -87,12 +87,12 @@ h1 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to right, #f72585, rgb(245 94 219));
+  background: linear-gradient(to right, #ff3471, #ff3471);
   border-radius: 10px;
   border: 1px solid #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to right, rgb(189, 42, 164), rgb(245 94 219));
-  border: 1px solid rgb(245 94 219);
+  background: linear-gradient(to right, #ff3471, #ff3471);
+  border: 1px solid #ff3471;
 }

@@ -13,7 +13,7 @@ function login() {
 <template>
     <div class="grid grid-cols-9 w-11/12 relative left-[-5rem] bottom-1 gap-32">
         <div class=" col-span-5">
-            <img class=" rounded-lg" src="../assets/images/login-bg.jpg" alt="">
+            <img class=" rounded-lg" src="https://i.ibb.co/b748MP1/login-bg.jpg" alt="">
         </div>
         <div class="col-span-4">
             <div class="mb-3 flex flex-col items-center">
